@@ -41,11 +41,12 @@ http://icalendar.rubyforge.org/
 
 # 生成したカレンダーを Wiki? にアップロード
 
-参加者が見ることのできる場所においておく
+sample.ics の名前を変えて、参加者が見ることのできる場所においておく
+Ruby 関西の Wiki でしょうか?
 
 # TODO
 
 もうすこし ruby 知らない人でも、カレンダーを作ることができるように、
-適当なフォーマットから `cal.event do` する wrapper が必要でしょうか
+適当なフォーマットから `cal.event do` する wrapper が必要でしょうか?
 
 
