@@ -39,10 +39,12 @@ http://icalendar.rubyforge.org/
     % ls sample.ics
     sample.ics
 
-# 生成したカレンダーを Wiki? にアップロード
+# 生成したカレンダーを、みんなが参照できるようにする
 
-sample.ics の名前を変えて、参加者が見ることのできる場所においておく
+sample.ics の名前を変えて、参加者が見ることのできる場所におく
 Ruby 関西の Wiki でしょうか?
+
+かつ、Google カレンダーも準備すると、完璧だと思います
 
 # TODO
 
