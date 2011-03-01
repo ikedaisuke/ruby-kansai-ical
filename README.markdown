@@ -20,7 +20,7 @@ http://icalendar.rubyforge.org/
     cal.event do
       dtstart       DateTime.new(2011, 03, 12, 13), {'TZID' => 'Asia/Tokyo'}
       dtend         DateTime.new(2011, 03, 12, 17), {'TZID' => 'Asia/Tokyo'}
-      summary       "Ruby/Rails勉強会@関西"
+      summary       "Ruby/Rails勉強会@関西 第49回"
       description   "関西での Ruby に関するイベントの主体となるコミュニティ"
       klass         "Public"
     end
