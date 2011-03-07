@@ -36,8 +36,8 @@ http://icalendar.rubyforge.org/
 # カレンダーを作成する
 
     % ruby ruby-kansai-ical.rb
-    % ls ruby-kansai.ics
-    ruby-kansai.ics
+    % ls ruby_kansai.ics
+    ruby_kansai.ics
 
 # 生成したカレンダーを、みんなが参照できるようにする
 

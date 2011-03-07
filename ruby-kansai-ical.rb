@@ -37,7 +37,7 @@ end
 
 cal.add(vtimezone_component)
 
-File.open("ruby-kansai.ics", "w+b") { |f|
+File.open("ruby_kansai.ics", "w+b") { |f|
     f.write(cal.to_ical.toutf8)
 }
 
