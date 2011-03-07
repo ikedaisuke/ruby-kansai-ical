@@ -23,7 +23,7 @@ cal.event do
   dtstart       DateTime.new(2011, 03, 12, 13), {'TZID' => 'Asia/Tokyo'}
   dtend         DateTime.new(2011, 03, 12, 17), {'TZID' => 'Asia/Tokyo'}
   summary       "Ruby/Rails勉強会@関西 第49回"
-  description   "関西での Ruby に関するイベントの主体となるコミュニティ"
+  description   "Ruby関西が主催する勉強会です。http://jp.rubyist.net/?RubyKansai"
   klass         "Public"
 end
 
@@ -31,13 +31,13 @@ cal.event do
   dtstart       DateTime.new(2011, 01, 8, 13), {'TZID' => 'Asia/Tokyo'}
   dtend         DateTime.new(2011, 01, 8, 17), {'TZID' => 'Asia/Tokyo'}
   summary       "Ruby/Rails勉強会@関西 第48回"
-  description   "関西での Ruby に関するイベントの主体となるコミュニティ"
+  description   "Ruby関西が主催する勉強会です。http://jp.rubyist.net/?RubyKansai"
   klass         "Public"
 end
 
 cal.add(vtimezone_component)
 
-File.open("sample.ics", "w+b") { |f|
+File.open("ruby-kansai.ics", "w+b") { |f|
     f.write(cal.to_ical.toutf8)
 }
 
