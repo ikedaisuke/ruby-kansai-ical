@@ -21,7 +21,7 @@ http://icalendar.rubyforge.org/
       dtstart       DateTime.new(2011, 03, 12, 13), {'TZID' => 'Asia/Tokyo'}
       dtend         DateTime.new(2011, 03, 12, 17), {'TZID' => 'Asia/Tokyo'}
       summary       "Ruby/Rails勉強会@関西 第49回"
-      description   "関西での Ruby に関するイベントの主体となるコミュニティ"
+      description   "Ruby関西が主催する勉強会です。http://jp.rubyist.net/?RubyKansai"
       klass         "Public"
     end
     
@@ -29,19 +29,19 @@ http://icalendar.rubyforge.org/
       dtstart       DateTime.new(2011, 01, 8, 13), {'TZID' => 'Asia/Tokyo'}
       dtend         DateTime.new(2011, 01, 8, 17), {'TZID' => 'Asia/Tokyo'}
       summary       "Ruby/Rails勉強会@関西 第48回"
-      description   "関西での Ruby に関するイベントの主体となるコミュニティ"
+      description   "Ruby関西が主催する勉強会です。http://jp.rubyist.net/?RubyKansai"
       klass         "Public"
     end
 
 # カレンダーを作成する
 
     % ruby ruby-kansai-ical.rb
-    % ls sample.ics
-    sample.ics
+    % ls ruby-kansai.ics
+    ruby-kansai.ics
 
 # 生成したカレンダーを、みんなが参照できるようにする
 
-sample.ics の名前を変えて、参加者が見ることのできる場所におく
+ruby-kansai.ics を、参加者が見ることのできる場所におく
 Ruby 関西の Wiki でしょうか?
 
 かつ、Google カレンダーも準備すると、完璧だと思います
@@ -50,5 +50,4 @@ Ruby 関西の Wiki でしょうか?
 
 もうすこし ruby 知らない人でも、カレンダーを作ることができるように、
 適当なフォーマットから `cal.event do` する wrapper が必要でしょうか?
-
 
