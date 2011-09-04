@@ -20,6 +20,14 @@ vtimezone_component.add(standard_component)
 cal = Icalendar::Calendar.new
 
 cal.event do
+  dtstart       DateTime.new(2011, 11, 11, 13), {'TZID' => 'Asia/Tokyo'}
+  dtend         DateTime.new(2011, 11, 12, 18), {'TZID' => 'Asia/Tokyo'}
+  summary       "関西Ruby会議04"
+  description   "関西のRubyist有志が主催する地域Ruby会議です(後援:日本Rubyの会、Ruby関西)。http://regional.rubykaigi.org/kansai04"
+  klass         "Public"
+end
+
+cal.event do
   dtstart       DateTime.new(2011, 9, 10, 13), {'TZID' => 'Asia/Tokyo'}
   dtend         DateTime.new(2011, 9, 10, 17), {'TZID' => 'Asia/Tokyo'}
   summary       "Ruby/Rails勉強会@関西 第51回"
